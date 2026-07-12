@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+.pytest_cache/
+cache/*
+!cache/.gitkeep
+models/*.joblib
+results/*
+!results/.gitkeep
+.DS_Store
