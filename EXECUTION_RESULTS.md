@@ -47,3 +47,11 @@ The results folder includes:
 - Prediction CSV files
 - Model comparison figures and CSV
 - Saved `.joblib` models
+
+## Interpretation and limitations
+
+These results represent a reproducible quick baseline experiment rather than the final optimized benchmark.
+
+The run used reduced feature sizes and small hyperparameter grids, disabled random oversampling, and limited the neural network to 10 training iterations. Therefore, the results are useful for validating the complete pipeline and comparing initial model behavior, but they should not be interpreted as production-level performance.
+
+Further work should include full hyperparameter tuning, training-only class balancing experiments, duplicate removal before splitting, and final model selection using validation performance before a single held-out test evaluation.
